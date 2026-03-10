@@ -1,0 +1,131 @@
+header{
+    text-align: center;
+    background-color: rgb(192, 220, 146);
+    box-shadow: 0px 3px 5px 0px rgb(82, 20, 20);
+    padding: 13px 13px 13px 0px;
+    width: 100%;
+    position: fixed;
+}
+nav a{
+    font-family:Abril Fatface; 
+    padding: 15px 15px;
+    color:rgb(55, 63, 38);
+    text-decoration:none;
+    border-radius: 20px 5px 20px 5px;
+    transition: 0.2s;
+    font-size: 20px;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(82, 20, 20);
+    border-radius: 0px 5px 0px 5px;
+    box-shadow: 5px 1px 5px 1px rgb(178, 194, 98);
+    padding: 7px 20px;
+    transition: 0.5s;
+}
+.banner{
+    background-color: rgb(199, 220, 146);
+    padding: 5px 10px;
+}
+
+.home{
+    height: 800px;
+    background-image: url("natadecoco.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Abril Fatface;
+    padding-top: 50px;
+}
+
+.deskHome{
+    width: 40%;
+    margin-left: 50px;
+    font-family:Abril Fatface;
+    color: rgb(3, 26, 47);
+    &h2{
+        color:rgb(255, 255, 255)
+    }
+    & p{
+        color: rgb(14, 54, 17);
+    }
+}    
+.deskHome a{
+    text-decoration: none;
+    color: rgb(94, 25, 25);
+    background-color: rgb(236, 245, 188);
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.5s;
+}
+.deskHome a:hover{
+    box-shadow: 0px 0px 5px 2px;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.5s;
+}
+section.project{
+    height: 800px;
+    text-align: center;
+    
+}
+.containerAbout{
+    width: 70%;
+    margin: auto;
+    padding: 90px 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -1px 15px 3px rgb(14, 54, 17);
+    & img{
+        height:300px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0px -5px 15px 5px rgb(71, 52, 81);
+    }
+}
+body{
+    margin: 0;
+    font-family: Abril Fatface;
+    background-color: rgb(206, 240, 126);
+}
+section.howto{
+    height: 640px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.howto img{
+    height: 260px;
+    box-shadow: 0px -5px 15px 5px rgb(71, 52, 81);
+}
+.deskHowto{
+    display: flex;
+    width: 90%;
+    margin:auto; 
+}
+.dokumentasi{
+    margin: 20px 
+}
+
+.cardProfile{
+    background-color: beige;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.imgProfile img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
