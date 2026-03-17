@@ -88,6 +88,7 @@ body{
 }
 section.howto{
     width: 70%;
+    height: 70%;
     margin: auto;
     padding: 90px 50px;
     text-align: center;
@@ -112,6 +113,7 @@ section.howto{
     padding: 15px;
     width: 300px;
     margin: auto;
+    margin-top: 80px;
     text-align: center;
     box-shadow: 0px -1px 15px 3px rgb(14, 54, 17);
 }
